@@ -27,8 +27,10 @@ git push origin Minseok # 오리진에 푸시
 ```bash
 .
 ├── README.md # 프로젝트 설명 리드미 (수정X)
-└── minseongh #(개인 폴더)
-    └── crawling-practice.py
+└── Minseok #(개인 폴더)
+    └── yanolja_crawling.py
+    └── crawling_lecture.md
+    └── yanolja_review.xlsx
 ```
 
 ## 커밋 컨벤션
