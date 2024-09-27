@@ -90,3 +90,46 @@ h1{ color:red; }( 선택자{속성명:속성값}; )
 * response.text는 문자열 형태라서 원하는 정보 추출하기 어려움 -> **Beautifulsoup**도움을 받자.   
 
 ---
+
+# 실전! 크롤링
+## 1단계. 한개의 상품 크롤링   
+
+* strip() : 앞뒤 공백 제거 
+* replace(변경전, 변경후)   
+![alt text](image.png)
+
+## 2단계. 여러개의 상품 크롤링   
+
+1. 숲(html)에서 원하는 정보를 모두 담고 있는 나무(태그)를 찾는다.
+2. css 선택자를 만들어 테스트 한다. 
+3. soup.select("CSS선택자")로 숲에서 나무들을 뽑는다. 
+4. 반복문을 돌면서 나무에서 하나씩 열매를 추출한다. 
+
+![alt text](image-1.png)
+
+## 3단계. 여러 페이지 크롤링    
+
+* URL(Uniform Resource Locator)   
+- 인터넷 주소 형식    
+- Protoco - Domain - Path- Parameter의 4가지 형태로 구성됨.   
+
+* 페이징 알고리즘 
+1. 페이지를 바꾸면서 URL이 변경되는 부분을 찾는다.     
+2. 페이지를 증가시키면서 요청을 보낸다.    
+
+![alt text](image-2.png)   
+* f-string 주요하기
+
+## 4단게. 데이터 엑셀에 저장
+
+* pip install pandas : 데이터분석 라이브러리
+* pip install openpyxl : 엑셀 자동화 라이브러리
+ 설치   
+
+1. 비어있는 리스트를 만들고 데이터를 한행씩 추가한다.   
+2. 데이터 프레임을 만들고 엑셀로 저장한다. 
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
