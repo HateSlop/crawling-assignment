@@ -20,15 +20,19 @@ def extract_reviews(html):
     items = soup.select(".review-item-container")
     
     for item in items:
+        count = 0
+        for svg in item.select("svg"):
+            if svg.find('path', {'fill': '#FDBD00'}):
+                count += 1
         review = item.select_one(".content-text.css-c92dc4").text
-        data.append([review])
+        data.append([count, review])
     
     return data
 
 
 # 리뷰를 엑셀로 저장하는 함수
 def save_reviews(name, review_list): 
-    df = pd.DataFrame(review_list, columns = ['review'])
+    df = pd.DataFrame(review_list, columns = ['point', 'review'])
     df.to_excel(f"yanolja_review_{name}.xlsx", index=True)    
     return
     
