@@ -1,0 +1,6 @@
+.env         
+venv0/        
+*.pyc        
+__pycache__/ 
+.02.static_page_crawling/
+.practice.ipynb
