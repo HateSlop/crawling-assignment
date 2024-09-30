@@ -76,7 +76,7 @@
 ```
 
 > 코드 실행 결과
-<img src="{CB57CD61-C031-41D2-B5B6-52D6C036EA80}.png" width="400" height="600">
+<img src="{CB57CD61-C031-41D2-B5B6-52D6C036EA80}.png" width="600" height="600">
 
 ### CSS 선택자
 - 선택자: 웹페이지에서 원하는 태그를 선택하는 문법
@@ -132,11 +132,11 @@
 ```
 
 > 코드 실행 결과
-<img src="{91DE625F-5483-48E0-A21B-22E4C72FCA0C}.png" width="400" height="600">
+<img src="{91DE625F-5483-48E0-A21B-22E4C72FCA0C}.png" width="600" height="600">
 
 > CSS 퀴즈 사이트
 
-[click here](c:\Users\lissa\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TempState\ScreenClip\{108DBCED-8BA5-4AB5-95FD-8678EC387A9F}.png)
+[click here](https://flukeout.github.io/)
 
 ### 웹 크롤링 기초
 > 정적 페이지 크롤링: 데이터의 추가적인 변경이 일어나지 않는 페이지 크롤링
