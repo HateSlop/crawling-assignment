@@ -54,7 +54,7 @@ def save_reviews(name, review_list):
         sheet.cell(row=i,column=1,value=data['review'])
         sheet.cell(row=i,column=2,value=data['rating'])
 
-    file.save(f"{name}_reviews.xlsx")
+    file.save(f"yanolja_review.xlsx")
     return
     
 
