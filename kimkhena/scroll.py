@@ -100,8 +100,6 @@ def crawl_yanolja_reviews(name, url):
     driver.quit()
 
 if __name__ == '__main__':
-    name="서울 웨스틴조선호텔"
-    url="https://www.yanolja.com/reviews/domestic/1000108384"
+    name="호텔"
+    url="https://www.yanolja.com/reviews/domestic/10041505"
     crawl_yanolja_reviews(name=name, url=url)
-
-print("done")
